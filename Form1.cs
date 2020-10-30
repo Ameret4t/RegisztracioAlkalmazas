@@ -44,6 +44,7 @@ namespace RegisztracioAlkalmazas
             {
                 return;
             }
+
             string fileName = saveFileDialog1.FileName;
 
             if (String.IsNullOrWhiteSpace(textBoxNev.Text)){
